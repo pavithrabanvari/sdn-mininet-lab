@@ -1,0 +1,22 @@
+# SDN Mininet Lab — Environment Requirements
+# ==========================================
+# This file documents the software environment used in this project.
+# There are no pip packages to install — all dependencies are system packages.
+
+# --- System Requirements ---
+# OS:         Ubuntu 20.04+ (tested on Ubuntu in VirtualBox)
+# Python:     3.8+
+# Mininet:    2.3.0+    (sudo apt install mininet)
+# Open vSwitch: 2.13+  (installed automatically with Mininet)
+# POX:        gar-experimenters branch (https://github.com/noxrepo/pox)
+
+# --- Installation Commands ---
+# sudo apt update
+# sudo apt install -y mininet
+# sudo apt install -y openvswitch-switch
+# git clone https://github.com/noxrepo/pox ~/pox
+
+# --- Verify Installation ---
+# mn --version
+# ovs-vsctl --version
+# python3 ~/pox/pox.py --version
